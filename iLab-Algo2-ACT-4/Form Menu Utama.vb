@@ -1,4 +1,5 @@
 ﻿Public Class FormMenuUtama
+
     Sub Terkunci()
         LoginToolStripMenuItem.Enabled = True
         LogoutToolStripMenuItem.Enabled = False
@@ -22,4 +23,9 @@
     Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
         End
     End Sub
+
+    Private Sub AdminToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdminToolStripMenuItem.Click
+        FormDataAdmin.Show()
+    End Sub
+
 End Class
