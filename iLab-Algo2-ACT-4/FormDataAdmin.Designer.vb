@@ -55,14 +55,14 @@ Partial Class FormDataAdmin
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox3.Size = New System.Drawing.Size(126, 20)
-        Me.TextBox3.TabIndex = 4
+        Me.TextBox3.TabIndex = 2
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(141, 69)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(126, 20)
-        Me.TextBox1.TabIndex = 5
+        Me.TextBox1.TabIndex = 0
         '
         'Label3
         '
@@ -96,7 +96,7 @@ Partial Class FormDataAdmin
         Me.TextBox2.Location = New System.Drawing.Point(141, 95)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(126, 20)
-        Me.TextBox2.TabIndex = 5
+        Me.TextBox2.TabIndex = 1
         '
         'Label5
         '
@@ -112,7 +112,7 @@ Partial Class FormDataAdmin
         Me.Button_Input.Location = New System.Drawing.Point(6, 203)
         Me.Button_Input.Name = "Button_Input"
         Me.Button_Input.Size = New System.Drawing.Size(73, 23)
-        Me.Button_Input.TabIndex = 6
+        Me.Button_Input.TabIndex = 4
         Me.Button_Input.Text = "Input"
         Me.Button_Input.UseVisualStyleBackColor = True
         '
@@ -121,7 +121,7 @@ Partial Class FormDataAdmin
         Me.Button_Edit.Location = New System.Drawing.Point(85, 203)
         Me.Button_Edit.Name = "Button_Edit"
         Me.Button_Edit.Size = New System.Drawing.Size(73, 23)
-        Me.Button_Edit.TabIndex = 6
+        Me.Button_Edit.TabIndex = 5
         Me.Button_Edit.Text = "Edit"
         Me.Button_Edit.UseVisualStyleBackColor = True
         '
@@ -139,7 +139,7 @@ Partial Class FormDataAdmin
         Me.Button_Tutup.Location = New System.Drawing.Point(243, 203)
         Me.Button_Tutup.Name = "Button_Tutup"
         Me.Button_Tutup.Size = New System.Drawing.Size(73, 23)
-        Me.Button_Tutup.TabIndex = 6
+        Me.Button_Tutup.TabIndex = 7
         Me.Button_Tutup.Text = "Tutup"
         Me.Button_Tutup.UseVisualStyleBackColor = True
         '
@@ -149,7 +149,7 @@ Partial Class FormDataAdmin
         Me.DataGridView1.Location = New System.Drawing.Point(12, 245)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(300, 150)
-        Me.DataGridView1.TabIndex = 7
+        Me.DataGridView1.TabIndex = 8
         '
         'ComboBox1
         '
@@ -158,7 +158,7 @@ Partial Class FormDataAdmin
         Me.ComboBox1.Location = New System.Drawing.Point(141, 150)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(126, 21)
-        Me.ComboBox1.TabIndex = 8
+        Me.ComboBox1.TabIndex = 3
         '
         'FormDataAdmin
         '

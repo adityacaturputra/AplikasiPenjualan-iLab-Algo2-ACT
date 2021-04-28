@@ -50,7 +50,7 @@ Public Class FormDataAdmin
                 MsgBox("Silahkan Isi Semua Field Data Admin!")
             Else
                 Call Koneksi()
-                Dim InputData As String = "insert into tabel_admin values('" & TextBox1.Text & "', '" & TextBox3.Text & "', '" & TextBox2.Text & "','" & ComboBox1.Text & "')"
+                Dim InputData As String = "insert into tabel_admin values('" & TextBox1.Text & "', '" & TextBox2.Text & "', '" & TextBox3.Text & "','" & ComboBox1.Text & "')"
                 Cmd = New OdbcCommand(InputData, Conn)
                 Cmd.ExecuteNonQuery()
                 MsgBox("Input Data Berhasil")
@@ -71,7 +71,7 @@ Public Class FormDataAdmin
                 MsgBox("Silahkan Isi Semua Field Data Admin!")
             Else
                 Call Koneksi()
-                Dim UpdateData As String = "update tabel_admin set namaadmin='" & TextBox3.Text & "', passwordadmin='" & TextBox2.Text & "',leveladmin='" & ComboBox1.Text & "' where kodeadmin='" & TextBox1.Text & "'"
+                Dim UpdateData As String = "update tabel_admin set namaadmin='" & TextBox2.Text & "', passwordadmin='" & TextBox3.Text & "',leveladmin='" & ComboBox1.Text & "' where kodeadmin='" & TextBox1.Text & "'"
                 Cmd = New OdbcCommand(UpdateData, Conn)
                 Cmd.ExecuteNonQuery()
                 MsgBox("Update Data Berhasil")
@@ -90,8 +90,8 @@ Public Class FormDataAdmin
                 MsgBox("Kode Admin Tidak Tersedia")
             Else
                 TextBox1.Text = Rd.Item("kodeadmin")
-                TextBox3.Text = Rd.Item("namaadmin")
-                TextBox2.Text = Rd.Item("passwordadmin")
+                TextBox2.Text = Rd.Item("namaadmin")
+                TextBox3.Text = Rd.Item("passwordadmin")
                 ComboBox1.Text = Rd.Item("leveladmin")
             End If
         End If

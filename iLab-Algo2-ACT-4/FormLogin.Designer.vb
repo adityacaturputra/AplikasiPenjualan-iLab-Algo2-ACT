@@ -64,7 +64,7 @@ Partial Class FormLogin
         Me.TextBox1.Location = New System.Drawing.Point(116, 79)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(126, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
@@ -88,7 +88,7 @@ Partial Class FormLogin
         Me.Btn_cancel.Location = New System.Drawing.Point(96, 208)
         Me.Btn_cancel.Name = "Btn_cancel"
         Me.Btn_cancel.Size = New System.Drawing.Size(91, 23)
-        Me.Btn_cancel.TabIndex = 2
+        Me.Btn_cancel.TabIndex = 3
         Me.Btn_cancel.Text = "Cancel"
         Me.Btn_cancel.UseVisualStyleBackColor = True
         '
