@@ -28,4 +28,7 @@
         FormDataAdmin.Show()
     End Sub
 
+    Private Sub PelangganToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PelangganToolStripMenuItem.Click
+        FormDataPelanggan.Show()
+    End Sub
 End Class

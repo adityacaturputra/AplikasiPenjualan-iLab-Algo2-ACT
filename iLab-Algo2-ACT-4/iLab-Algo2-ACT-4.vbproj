@@ -86,6 +86,12 @@
     <Compile Include="FormDataAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormDataPelanggan.Designer.vb">
+      <DependentUpon>FormDataPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDataAdmin.resx">
       <DependentUpon>FormDataAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataPelanggan.resx">
+      <DependentUpon>FormDataPelanggan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>

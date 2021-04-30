@@ -83,19 +83,19 @@ Partial Class FormMenuUtama
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AdminToolStripMenuItem.Text = "Admin"
         '
         'PelangganToolStripMenuItem
         '
         Me.PelangganToolStripMenuItem.Name = "PelangganToolStripMenuItem"
-        Me.PelangganToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.PelangganToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PelangganToolStripMenuItem.Text = "Pelanggan"
         '
         'BarangToolStripMenuItem
         '
         Me.BarangToolStripMenuItem.Name = "BarangToolStripMenuItem"
-        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.BarangToolStripMenuItem.Text = "Barang"
         '
         'TransaksiToolStripMenuItem
@@ -108,7 +108,7 @@ Partial Class FormMenuUtama
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PenjualanToolStripMenuItem.Text = "Penjualan"
         '
         'LaporanToolStripMenuItem
