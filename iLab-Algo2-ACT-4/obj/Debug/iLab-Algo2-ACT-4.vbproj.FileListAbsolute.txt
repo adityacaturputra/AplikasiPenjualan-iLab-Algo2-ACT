@@ -13,3 +13,4 @@ C:\Users\Bagus Triatmaja\source\repos\iLab-Algo2-ACT-4\iLab-Algo2-ACT-4\obj\Debu
 C:\Users\Bagus Triatmaja\source\repos\iLab-Algo2-ACT-4\iLab-Algo2-ACT-4\obj\Debug\iLab-Algo2-ACT-4.pdb
 C:\Users\Bagus Triatmaja\source\repos\iLab-Algo2-ACT-4\iLab-Algo2-ACT-4\obj\Debug\iLab_Algo2_ACT_4.FormDataAdmin.resources
 C:\Users\Bagus Triatmaja\source\repos\iLab-Algo2-ACT-4\iLab-Algo2-ACT-4\obj\Debug\iLab_Algo2_ACT_4.FormDataPelanggan.resources
+C:\Users\Bagus Triatmaja\source\repos\iLab-Algo2-ACT-4\iLab-Algo2-ACT-4\obj\Debug\iLab_Algo2_ACT_4.FormDataBarang.resources

@@ -108,7 +108,7 @@ Partial Class FormMenuUtama
         'PenjualanToolStripMenuItem
         '
         Me.PenjualanToolStripMenuItem.Name = "PenjualanToolStripMenuItem"
-        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PenjualanToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.PenjualanToolStripMenuItem.Text = "Penjualan"
         '
         'LaporanToolStripMenuItem

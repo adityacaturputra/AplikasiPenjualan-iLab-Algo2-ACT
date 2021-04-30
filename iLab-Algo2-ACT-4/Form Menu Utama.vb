@@ -31,4 +31,8 @@
     Private Sub PelangganToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PelangganToolStripMenuItem.Click
         FormDataPelanggan.Show()
     End Sub
+
+    Private Sub BarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BarangToolStripMenuItem.Click
+        FormDataBarang.Show()
+    End Sub
 End Class
